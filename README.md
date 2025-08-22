@@ -25,7 +25,7 @@ Installation
 
 Clone this repository:
 
-git clone https://github.com/your-username/crop-prediction.git
+git clone https://github.com/manotoshmaity/crop_production
 cd crop-prediction
 
 
@@ -51,7 +51,7 @@ Create a new API key and copy it.
 Add your credentials in app.py:
 
 API_KEY = "your-ibm-cloud-api-key"
-DEPLOYMENT_URL = "https://au-syd.ml.cloud.ibm.com/ml/v4/deployments/crop123/predictions?version=2021-05-01"
+DEPLOYMENT_URL = "https://cropappuction-j9q28ufjvmwfait7stxxkp.streamlit.app/"
 
 Run Locally
 streamlit run app.py
